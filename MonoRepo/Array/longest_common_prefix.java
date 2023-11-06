@@ -1,4 +1,4 @@
-package MonoRepo.Array;
+
 
 public class longest_common_prefix {
     String longestCommonPrefix(String arr[], int n){

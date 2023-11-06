@@ -1,5 +1,5 @@
 // Status: Accepted
-package MonoRepo.Array;
+
 import java.util.ArrayList;
 
 class subset_of_another_array {

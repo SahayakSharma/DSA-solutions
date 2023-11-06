@@ -1,4 +1,4 @@
-package MonoRepo.Array;
+
 
 public class produc_array_puzzle {
     public static long[] productExceptSelf(int nums[], int n) 
