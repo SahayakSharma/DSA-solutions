@@ -16,11 +16,11 @@ public class cyclic_sort {
     static void cyclic(int arr[]){
         int i=0;
         while(i<arr.length){
-            if(arr[i]-1==i){
+            int ind=arr[i]-1;
+            if(arr[i]==arr[ind]){
                 i++;
             }
             else{
-                int ind=arr[i]-1;
                 int temp=arr[i];
                 arr[i]=arr[ind];
                 arr[ind]=temp;
